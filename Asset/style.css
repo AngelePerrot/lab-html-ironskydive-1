@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 10px;
+  line-heigth: 3.5em;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed";
+}
+
+h1 {
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+  z-index: 999;
+  position: relative;
+}
+
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+  margin-top: 25px;
+}
+
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  line-height: 1em;
+  margin-top: 10px;
+}
+
+h5 {
+  font-size: 1.2em;
+  line-height: 1em;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav-bar {
+  background-color: rgb(25, 33, 41);
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-bar-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-bar-li {
+  float: left;
+}
+
+.nav-bar-li:hover {
+  background-color: #27333f;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  display: block;
+  text-align: center top center;
+  padding: 14px 50px;
+}
+
+.header {
+  height: 650px;
+  background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  padding-top: 50px;
+  position: relative;
+}
+
+.dark-background {
+  background-color: rgb(25, 33, 41);
+  color: white;
+  text-align: left;
+}
+
+.quote {
+  font-size: 2.5em;
+  margin-top: 300px;
+  margin-left: 150px;
+}
+
+.container {
+  height: 240px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.link-btn {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(67, 163, 230);
+  display: block;
+  width: 140px;
+  margin: auto;
+  padding: 15px;
+}
+
+.container-2 {
+  width: 1300px;
+  margin: auto;
+  padding: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-3 {
+  width: 1300px;
+  margin: auto;
+  padding: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.service-box {
+  font-size: 1.7em;
+  text-align: center;
+  border: 3px solid #d5d7e0;
+  border-radius: 20px;
+  box-shadow: 5px 6px 2px #d5d7e0;
+  margin: 20px;
+  padding: 25px;
+  width: 500px;
+}
+
+.service-box img {
+  font-size: 1.7em;
+  width: 125px;
+  text-align: center;
+}
+
+#team {
+  height: 420px;
+  padding: 10px;
+}
+
+#team .TeamBox {
+  padding: 10px 300px 30px 300px;
+}
+
+#team .section-text {
+  font-size: 1.9em;
+  text-align: center;
+}
+
+#team .member-name {
+  font-size: 1.5em;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+#team .Team-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#team img {
+  width: 250px;
+  height: 200px;
+  border: 2.5px solid #27333f;
+  border-radius: 70px;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+th {
+  font: 30px bolder;
+  font-family: "Roboto Condensed";
+  margin-top: 10px;
+}
+
+td,
+th {
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  border-bottom: 1px solid #000000;
+}
+
+.Time-slot {
+  width: 40%;
+  margin: 18px auto 0 auto;
+  font-size: 1.5em;
+  font-style: bolder;
+  text-align: center;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  line-height: 15px;
+}
+
+.Time-slot input,
+.Time-slot select {
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 100%;
+}
+
+.Time-slot button {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  padding: 9px;
+  margin-top: 15px;
+}
+
+.address {
+  font-style: normal;
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.footer {
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer a {
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+.contact {
+  line-height: 1.5em;
+}

@@ -9,54 +9,62 @@
   </head>
   <body>
     <!--Nav and Header-->
-    <nav>
-      <ul>
-        <li><a href="#structure">Day Structure</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#schedule">Schedule</a></li>
+    <nav class="nav-bar">
+      <ul class="nav-bar-ul">
+        <li class="nav-bar-li"><a href="#structure">Day Structure</a></li>
+        <li class="nav-bar-li"><a href="#team">Team</a></li>
+        <li class="nav-bar-li"><a href="#schedule">Schedule</a></li>
       </ul>
-      <header>
-        <h1>
-          <img
-            src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png"
-            alt="IronSkydive Logo" />IronSkydive
-        </h1>
-        <h2>Let the trip begin</h2>
+    </nav>
+    <header class="header">
+      <h1>
+        <img
+          src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png"
+          alt="IronSkydive Logo" />IronSkydive
+      </h1>
+      <h2>Let the trip begin</h2>
+      <aside class="quote">
         <p>
           <em>"The best experience of our lives"</em><br />
           Ariel Quiónes & Gonzalo Manrique, Ironhack Founders
         </p>
-        <aside></aside>
-      </header>
-    </nav>
+      </aside>
+    </header>
 
     <!--Section 1-->
-    <section>
-      <article>
-        <h3>Hello!</h3>
-        <p>Welcome to IronSkydive, the best adventure you will ever have.</p>
-        <a href="#">Learn More</a>
-      </article>
-      <article>
-        <h3>About Us</h3>
-        <p>
-          We like a lot programming websites, but we also love to practice
-          sport.
-        </p>
-        <a href="#">Watch Video</a>
-      </article>
-      <article>
-        <h3>Wanna join?</h3>
-        <p>Join our fitness program to be in good shape while learning.</p>
-        <a href="#">Register</a>
-      </article>
+    <section id="general-information" class="dark-background">
+      <div class="container">
+        <article class="column 1">
+          <h3>Hello!</h3>
+          <p class="text">
+            Welcome to IronSkydive, the greatest adventure of your life
+          </p>
+          <a href="#" class="link-btn">Learn more</a>
+        </article>
+
+        <article>
+          <h3>About us</h3>
+          <p class="text">
+            We like programming websites, but we also like the adrenalin rush
+          </p>
+          <a href="#" class="link-btn">Watch Video</a>
+        </article>
+
+        <article>
+          <h3>Wanna join?</h3>
+          <p class="text">
+            Sign up so you can become a better programmer, and cooler person.
+          </p>
+          <a href="#" class="link-btn">Register</a>
+        </article>
+      </div>
     </section>
 
     <!--Section 2-->
-    <section>
+    <section id="structure">
       <h3>How do we structure the day?</h3>
-      <div>
-        <article>
+      <div class="container-2">
+        <article class="service-box">
           <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png"
             alt="Sec 2:Training Logo" />
@@ -66,7 +74,7 @@
             kind of problem.
           </p>
         </article>
-        <article>
+        <article class="service-box">
           <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png"
             alt="Sec 2:Get Ready Logo" />
@@ -76,7 +84,9 @@
             All sizes available
           </p>
         </article>
-        <article>
+      </div>
+      <div class="container-3">
+        <article class="service-box">
           <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png"
             alt="Sec 2:Fly Logo" />
@@ -86,7 +96,7 @@
             fly !
           </p>
         </article>
-        <article>
+        <article class="service-box">
           <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png"
             alt="Sec 2:Jump Logo" />
@@ -97,113 +107,147 @@
     </section>
 
     <!--Section 3-->
-    <section>
-      <article>
-        <h3>Team</h3>
-        <p>
+    <section id="team" class="dark-background">
+      <h3>Team</h3>
+      <div class="TeamBox">
+        <p class="section-text">
           Our team collectively has 75 years of experience. Odds are, when you
           jump out the plane with professionals, you won't go splat.
         </p>
-      </article>
-      <div>
+      </div>
+      <hr />
+      <div class="Team-img">
         <article>
-          <strong> Harold Rothstein:</strong
-          ><img
+          <b class="member-name">Harold Rothstein</b><br />
+          <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg"
             alt="Sec-3:Harold" />
         </article>
-        <hr />
         <article>
-          <strong> Susan Phillips:</strong>
+          <b class="member-name">Susan Phillips</b><br />
           <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg"
             alt="Sec-3:Susan" />
         </article>
-        <hr />
+
         <article>
-          <strong> Taylor Roberts:</strong
-          ><img
+          <b class="member-name">Taylor Roberts</b><br />
+          <img
             src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg"
             alt="Sec-3:Taylor" />
         </article>
-        <hr />
       </div>
     </section>
 
     <!--Section 4-->
-    <section>
+    <section id="schedule">
       <h3>Schedule</h3>
-      <table>
-        <tr>
-          <td>Time</td>
-          <td>Monday</td>
-          <td>Tuesday</td>
-          <td>Wednesday</td>
-          <td>Thursday</td>
-          <td>Friday</td>
-          <td>Saturday</td>
-        </tr>
-        <tr>
-          <td>9:00 - 11:00</td>
-          <td></td>
-          <td></td>
-          <td>X</td>
-          <td></td>
-          <td>X</td>
-          <td>X</td>
-        </tr>
-        <tr>
-          <td>12:00 - 14:00</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>X</td>
-          <td>X</td>
-        </tr>
-        <tr>
-          <td>15:00 - 17:00</td>
-          <td></td>
-          <td></td>
-          <td>X</td>
-          <td>X</td>
-          <td>X</td>
-          <td>X</td>
-        </tr>
-      </table>
+      <div class="table-container">
+        <table>
+          <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+          </tr>
+          <tr>
+            <td>9:00 - 11:00</td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+          </tr>
+          <tr>
+            <td>12:00 - 14:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+          </tr>
+          <tr>
+            <td>15:00 - 17:00</td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+          </tr>
+        </table>
+      </div>
       <h3>Schedule a Time Slot</h3>
+      <form action="" class="time-slot-form">
+        <div class="Time-slot">
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="Time-slot">
+          <label for="participants">Participants</label>
+          <input
+            type="number"
+            id="participants"
+            placeholder="Number of participants" />
+        </div>
+        <div class="Time-slot">
+          <label for="date">Date</label>
+          <input type="date" id="date" />
+        </div>
+
+        <div class="Time-slot">
+          <label for="time">Time</label>
+          <select id="time">
+            <option value="early">9:00 - 11:00</option>
+            <option value="mid">12:00 - 14:00</option>
+            <option value="late">15:00 - 17:00</option>
+          </select>
+        </div>
+        <div class="Time-slot">
+          <button>Reserve your slot!</button>
+        </div>
+      </form>
     </section>
 
     <!--Footer-->
-    <section>
-      <h5>Contact Information</h5>
-      <address>
-        IronSkydive<br />
-        33 Rue La Fayette,<br />
-        75009 Paris,<br />
-        France<br />
-        +33(0)619 193 088
-      </address>
-      <h5>Follow up</h5>
-      <ul>
-        <li>
-          <a href="https://twitter.com/ironhackbcn?lang=en" target="_blank"
-            >Twitter</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/groups/478032405099138"
-            target="_blank"
-            >Facebook</a
-          >
-        </li>
-        <li>
-          <a href="https://www.instagram.com/ironhack/" target="_blank"
-            >Instagram</a
-          >
-        </li>
-      </ul>
-    </section>
+    <footer class="dark-background footer">
+      <div class="contact">
+        <h5>Contact Information</h5>
+        <address class="address">
+          IronSkydive<br />
+          33 Rue La Fayette,<br />
+          75009 Paris,<br />
+          France<br />
+          +33(0)619 193 088
+        </address>
+      </div>
+      <div class="Follow">
+        <h5>Follow up</h5>
+        <ul>
+          <li>
+            <a href="https://twitter.com/ironhackbcn?lang=en" target="_blank"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/groups/478032405099138"
+              target="_blank"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/ironhack/" target="_blank"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
